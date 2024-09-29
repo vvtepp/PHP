@@ -1,0 +1,32 @@
+body{
+    background-color: wheat;
+}
+.box{
+    display: flex;
+    background-color: purple;
+    margin-left: 700px;
+    margin-right: 700px;
+    margin-top: 100px;
+    margin-bottom: 500px;
+    border-radius: 10px;
+}
+.cont{
+    margin-left: 100px;
+}
+.inpt{
+    margin-left: 70px;
+}
+.inpt1{
+    margin-left: 67px;
+}
+h1{
+    text-align: center;
+    margin-left: 80px;
+}
+.btn{
+    margin-left: 350px;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    margin-bottom: 20px;
+}

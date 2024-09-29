@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+.box{
+    background-color: black;
+    margin: 50px auto;
+    border-radius: 7px;
+    max-width: 600px;
+    padding-bottom: 80px;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px 10px 0px 0px;
+}
+h1{
+    text-align: center;
+}
+.receipt-content{
+    margin-left: 200px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
