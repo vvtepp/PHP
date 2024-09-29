@@ -1,27 +1,27 @@
 body{
-    background-color: black;
+    background-color: wheat;
 }
 .box{
-    background-color: black;
+    background-color: purple;
     margin: 50px auto;
     border-radius: 7px;
     max-width: 600px;
     padding-bottom: 80px;
+    border-radius: 12px;
 }
 .box1{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: pink;
     border-radius: 10px 10px 0px 0px;
 }
 h1{
     text-align: center;
 }
-.receipt-content{
+.receipt{
     margin-left: 200px;
     font-size: 16px;
     line-height: 1.5;
-    font-family: Arial, Helvetica, sans-serif;
     margin-top: 50px;
 }
