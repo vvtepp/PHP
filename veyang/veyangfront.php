@@ -8,7 +8,6 @@
 </head>
 <body>
 <?php
-// Start the session
 session_start();
 ?>
     <div class="box">
