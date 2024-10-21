@@ -1,5 +1,5 @@
 <?php
-//Call connection string
+//CALL CONNECTION STRING
 include('db/connection.php');
 
 if(isset($_POST['register']))
@@ -8,7 +8,7 @@ if(isset($_POST['register']))
    $lastname = $_POST['lastname'];
    $role = "client";
    
-   //Sanitized username , eliminate SQL injection
+   //SANITIZE USERNAME , ELIMINATE SQL INJECTION
    $username = $conn->real_escape_string($_POST['username']);
    $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
 
