@@ -84,8 +84,8 @@
                     echo "<td>" .$row['lastname']. "</td>";
                     echo "<td>" .$row['role']. "</td>";
                     echo "<td>";
-                    echo "<a href='edit_client.php>ID=" .$row['ID']." '>Edit</a> | ";
-                    echo "<a href='delete_client.php>ID=" .$row['ID']." '>Delete</a> | ";
+                    echo "<a href='edit_client.php?ID=" .$row['ID']."'>Edit</a> : ";
+                    echo "<a href='delete_client.php?ID=" .$row['ID']."' onclick='return confirm(\"Are you sure you want to delete this client?\");'>Delete</a> : ";
                     echo "</td>";
                     echo "</tr>";
                 }

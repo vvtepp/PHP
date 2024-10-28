@@ -3,7 +3,7 @@
     $host = "localhost";
     $user = "root";
     $pass = "";
-    $dbname = "jusip_db";
+    $dbname = "otep_db";
 
     //COMBINE ALL VARIABLES TO CONNECT THE DATABASE
     $conn = new mysqli($host, $user, $pass, $dbname);
